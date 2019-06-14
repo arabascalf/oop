@@ -1,5 +1,3 @@
-import java.math.BigInteger; 
-
 class Vehiculo{
 	private int numID;
 	private String modelo;
