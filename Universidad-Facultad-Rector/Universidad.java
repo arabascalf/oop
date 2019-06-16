@@ -4,7 +4,8 @@ class Universidad {
     private Facultad facultad;
     private Rector rector;
 
-    Universidad(String nombre, String campus, Rector rector, String facultad_nombre) {
+    Universidad(String nombre, String campus,
+                Rector rector, String facultad_nombre) {
         this.nombre = nombre;
         this.campus = campus;
         this.rector = rector;
