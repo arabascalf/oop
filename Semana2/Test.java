@@ -7,8 +7,6 @@ class Test {
         Seguro seguro;
         String cliente;
         int pago;
-        double efectivo;
-        int tarjeta;
 
         System.out.println("Ingrese el nombre de la persona que desea realizar la reservación:");
         cliente = sc.nextLine();
