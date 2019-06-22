@@ -28,7 +28,7 @@ class Alumno extends Persona {
 
     @Override
     public Alumno clone() {
-        Alumno newAlumno = new Alumno(this.name, this.father_surname, this.mother_surname, this.birth_year, this.birth_month, this.birth_day, this.female_gender, this.id_number, this.semester);
+        Alumnos newAlumno = new Alumno(this.name, this.father_surname, this.mother_surname, this.birth_year, this.birth_month, this.birth_day, this.female_gender, this.id_number, this.semester);
         return newAlumno;
     }
 }
